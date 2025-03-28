@@ -52,10 +52,10 @@ public class Q1916 {
 
         // Initialization
         for (int i = 1; i <= N; i++) {
-            dist[i] = Integer.MAX_VALUE;  // 기본적으로는 모두 무한대로 설정
+            dist[i] = Integer.MAX_VALUE;
             visited[i] = false;
         }
-        dist[start] = 0;  // 시작점의 거리는 0
+        dist[start] = 0;
 
         // Dijkstra
         for (int i = 1; i <= N; i++) {
